@@ -1,6 +1,6 @@
 import MySQLdb
 
-file_name = 'freebase_mtr100_mte100-valid.txt'
+file_name = 'person.txt'
 connect = MySQLdb.connect(host='localhost',user='root',passwd='22kon',db='OpenNRE',port=3306)	
 
 def get_name_from_id(mid):
@@ -23,18 +23,20 @@ def replace_id2name(file):
 	f2read = open(file, 'r')
 	file_len = len(f2read.readlines())
 	print 'Here are %d lines in the file. ' %(file_len)
-	print 'Read from lineNo __ to lineNo __'
+	print 'Read from lineNo _ to lineNo _ :'
 	start = int(input())
 	end = int(input())
-	f2read.seek(start)
-	for line in f2read.readlines(end-start):
+	f2read.seek(0)
+	for line in f2read.readlines()[start:end]:
 		mid_relation_mid = line.strip().split('\t')
-		mid = mid_relation_mid[0]
+		mid1 = mid_relation_mid[0]
+		mid2 = mid_relation_mid[-1]
 		# since the return of cursor.fetchone() ia a tuple
-		name = get_name_from_id(mid)
-		if name:
-			print name[0]
-
+		name1 = '<' + get_name_from_id(mid1)[0] + '>'
+		name2 = '<' + get_name_from_id(mid2)[0] + '>'
+		if name1 and name2:
+			result = line.replace(mid1, name1).replace(mid2, name2).strip()
+		print result
 		
 	connect.close()
 	f2read.close()
