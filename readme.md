@@ -3,10 +3,10 @@
 [readline.py](https://github.com/zecoo/mini_tools/blob/master/readline.py)   
 Usage: Extract few lines from an extremely big file.   
 [txt2sql.py](https://github.com/zecoo/mini_tools/blob/master/txt2sql.py)  
-Usage: store .txt to mysql
-[get_relations_by_keyword.py]((https://download.csdn.net/download/guotong1988/9865898))
-
-Freebase has marked relation between 2 entities in data like FB15K, which you can download from [THU OpenKE]((https://download.csdn.net/download/guotong1988/9865898)).   
+Usage: Store .txt to mysql
+[get_relations_by_keyword.py](https://github.com/zecoo/freebase_structure/blob/master/get_relations_by_keyword.py)
+Usage: Literaly
+Freebase has marked relations between 2 entities in dataset like FB15K, which you can download from [THU OpenKE](https://github.com/thunlp/OpenKE).   
 Mid2name mapping can be downloaded from [CSDN](https://download.csdn.net/download/guotong1988/9865898).
 
 ## New to freebase
