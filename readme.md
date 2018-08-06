@@ -33,3 +33,31 @@ txt2sql.py is suitable for case like this.
 <George Burns>  type_of_union   <Marriage>
 <Sound editor>  film    <Star Trek: Insurrection>
 ```
+
+```
+Keyword to search: Apple
+Searching for Apple ing...
+Apple   /m/014j1m
+<Apple> seasonal_months <October>
+<Apple> nutrient        <Alpha-Tocopherol>
+<Apple> location        <Marin County, California>
+<Apple> nutrient        <Vitamin C>
+<Apple> compatible_with_dietary_restrictions    <Vegetarian cuisine>
+<Apple> seasonal_months <July>
+<Apple> nutrient        <Ash (analytical chemistry)>
+<Apple> location        <San Francisco Bay Area>
+<Apple> nutrient        <Myristic acid>
+<Apple> compatible_with_dietary_restrictions    <Gluten-free diet>
+<Apple> nutrient        <Zinc>
+<Apple> seasonal_months <November>
+<Apple> nutrient        <Oleic acid>
+<Apple> seasonal_months <December>
+<Apple> nutrient        <Vitamin B6>
+<Apple> rank    <Species>
+<Apple> seasonal_months <August>
+<Apple> seasonal_months <September>
+<Apple> location        <Southern California>
+<Apple> compatible_with_dietary_restrictions    <Veganism>
+<Apple> nutrient        <Water>
+<Apple> nutrient        <Vitamin A>
+```
