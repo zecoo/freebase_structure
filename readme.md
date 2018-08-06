@@ -61,3 +61,36 @@ Apple   /m/014j1m
 <Apple> nutrient        <Water>
 <Apple> nutrient        <Vitamin A>
 ```
+
+```
+Keyword to search: Steve Jobs
+Searching for Steve Jobs ing...
+Steve Jobs      /m/06y3r
+<Steve Jobs>    condition       <Pancreatic cancer>
+<Steve Jobs>    organizations_founded   <Apple Inc.>
+<Steve Jobs>    award_winner    <John Lasseter>
+<Steve Jobs>    institution     <Reed College>
+<Steve Jobs>    ethnicity       <German American>
+<Steve Jobs>    profession      <Inventor (patent)>
+<Steve Jobs>    organization    <Apple Inc.>
+<Steve Jobs>    ethnicity       <Caucasian race>
+<Steve Jobs>    profession      <Designer>
+<Steve Jobs>    gender  <Male>
+<Steve Jobs>    organization    <Pixar>
+<Steve Jobs>    place_of_birth  <San Francisco>
+<Steve Jobs>    currency        <United States dollar>
+<Steve Jobs>    nationality     <United States>
+<Steve Jobs>    company <Hewlett-Packard>
+<Steve Jobs>    currency        <United States dollar>
+<Steve Jobs>    religion        <Lutheranism>
+<Steve Jobs>    place_of_death  <Palo Alto, California>
+<Steve Jobs>    list    <Time 100>
+<Steve Jobs>    company <Apple Inc.>
+<Steve Jobs>    cause_of_death  <Pancreatic cancer>
+<Steve Jobs>    religion        <Atheism>
+<Steve Jobs>    profession      <Businessperson>
+<Steve Jobs>    type_of_union   <Marriage>
+<Steve Jobs>    religion        <Buddhism>
+<Steve Jobs>    type_of_union   <Domestic partnership>
+<Steve Jobs>    profession      <Entrepreneur>
+```
