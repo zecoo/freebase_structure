@@ -32,10 +32,12 @@ def replace_id2name(file):
 		mid1 = mid_relation_mid[0]
 		mid2 = mid_relation_mid[-1]
 		# since the return of cursor.fetchone() ia a tuple
-		name1 = '<' + get_name_from_id(mid1)[0] + '>'
-		name2 = '<' + get_name_from_id(mid2)[0] + '>'
+		name1 = get_name_from_id(mid1)
+		name2 = get_name_from_id(mid2)
 		if name1 and name2:
-			result = line.replace(mid1, name1).replace(mid2, name2).strip()
+			entity1 = '<' + name1[0] + '>'
+			entity2 = '<' + name2[0] + '>'
+			result = line.replace(mid1, entity1).replace(mid2, entity2).strip()
 		print result
 		
 	connect.close()
