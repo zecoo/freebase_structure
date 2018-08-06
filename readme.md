@@ -2,10 +2,10 @@
 
 The repositoty is bulid for simple text processing.
 
-[readline.py]()   
+[readline.py](https://github.com/zecoo/mini_tools/blob/master/readline.py)   
 Usage: Extract few lines from an extremely big file.
 
-[txt2sql.py]()  
+[txt2sql.py](https://github.com/zecoo/mini_tools/blob/master/txtsql.py)  
 Usage: store .txt to mysql
 
 ## Freebase
