@@ -4,7 +4,7 @@
 Usage: Extract few lines from an extremely big file.   
 [txt2sql.py](https://github.com/zecoo/mini_tools/blob/master/txt2sql.py)    
 Usage: Store .txt to mysql   
-[get_relations_by_keyword.py](https://github.com/zecoo/freebase_structure/blob/master/get_relations_by_keyword.py)
+[get_relations_by_keyword.py](https://github.com/zecoo/freebase_structure/blob/master/get_relations_by_keyword.py)   
 Usage: Literaly   
 
 Freebase has marked relations between 2 entities in dataset like FB15K, which you can download from [THU OpenKE](https://github.com/thunlp/OpenKE).   
