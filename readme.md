@@ -11,7 +11,7 @@ Freebase has marked relations between 2 entities in dataset like FB15K, which yo
 Mid2name mapping can be downloaded from [CSDN](https://download.csdn.net/download/guotong1988/9865898).
 
 ## New to freebase
-The RDF triples in Freebase looks like:    
+The RDF triples in Freebase look like:    
 > <m.01jzhl>  <people.person.education>   <m.0n1k91v> .  
 > <m.01jzhl>  <people.person.profession>  <m.02h664x> .  
    
@@ -19,7 +19,7 @@ The `mid2name.txt` is extremely big that Sublime Text would open it for several 
 1. I store the `mid2name.txt` into mysql using `txt2sql.py`.
 2. Searching from FB15K for relations intuitionaly via `get_relations_by_keyword,py`
    
-Terminaly the demo loos like:   
+Terminaly the demo looks like:   
 ```
 Keyword to search: Wuhan
 <Wuhan> administrative_division <Hubei>
